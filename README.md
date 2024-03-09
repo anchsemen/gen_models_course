@@ -1,4 +1,5 @@
 Кирсанов Семен Олегович
+
 Глубокие генеративные модели
 
 #  <a href="https://colab.research.google.com/drive/1nu7Ejtk0n-DeQCfqrlkSLIMLW8duCSPx?usp=sharing">**Homework_1**</a>
