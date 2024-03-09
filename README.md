@@ -27,6 +27,10 @@
 
 **Результаты эксперимента**: 
 
+График MSE для различных сэмплов из обучающей выборки и выборки с проливами, а также со значением threshold:
+
+<img src=MSE_samples(train-proliv).png>
+
 1. <a href="https://wandb.ai/anch-semen/HW1_GENmodels?nw=nwuseranchsemen">График loss функции в wandb</a>;
 
 2. True Positive Rate = 0.721 True Negative Rate = 0.722, что значит с $threshold \approx 0.6 * max(mse proliv) \approx 0.00754 $ классификатор достаточно хорошо распознает лунки с проливами и без проливов.
