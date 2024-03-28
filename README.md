@@ -20,6 +20,8 @@
 <img src=D_loss&G_loss_epochs5.png>
 <img src=results_epochs5.png>
 
+Со всеми графиками loss функций можно ознакомиться <a href="https://wandb.ai/anch-semen/HW2_GENmodels?nw=nwuseranchsemen">здесь</a>.
+
 ### **0 гипотеза**:
 Не пробовать изменять структуру обучения, а увеличить количество эпох до 20. 
 
