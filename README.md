@@ -1,5 +1,5 @@
 
-#  <a href="https://colab.research.google.com/drive/1nu7Ejtk0n-DeQCfqrlkSLIMLW8duCSPx?usp=sharing">**Homework_2 Имплементация GAN**</a>
+#  <a href="https://www.kaggle.com/code/anchsemen/gan-hw">**Homework_2 Имплементация GAN**</a>
 
 
 ### **Используемый датасет:** 
@@ -25,7 +25,31 @@
 ### **0 гипотеза**:
 Не пробовать изменять структуру обучения, а увеличить количество эпох до 20. 
 
-**Результаты 0 гипотезы:** 
+**Результаты 0 гипотезы:** Результаты лучше, чем на 5 эпохах (лица более выражены), но все равно видно по графикам loфss функций, что хорошей сходимости не наблюдается.  
 
+<img src=D_loss&G_loss_hyp0epochs20.png>
+<img src=results_hyp0epochs20.png>
 
-**Выводы:** 
+### **1 гипотеза**:
+Как было написано в <a href="https://arxiv.org/ftp/arxiv/papers/2006/2006.05132.pdf">статье</a>, воспользоваться:
+1. Использовать Batch Normalization
+2. Вместо активации ReLU применить Leaky-ReLU
+
+**Результаты 1 гипотезы:** Результат 
+
+<img src=D_loss&G_loss_hyp1epochs5.png>
+<img src=results_hyp1epochs5.png>
+
+### **2 гипотеза**:
+
+**Результаты 2 гипотезы:**  
+<img src=D_loss&G_loss_hyp2epochs5.png>
+<img src=results_hyp2epochs5.png>
+
+### **3 гипотеза**:
+
+**Результаты 3 гипотезы:** 
+<img src=D_loss&G_loss_hyp3epochs5.png>
+<img src=results_hyp3epochs5.png>
+
+**Выводы:** Самым лучшим результатом было 
