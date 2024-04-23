@@ -1,4 +1,4 @@
-#  <a href="https://www.kaggle.com/code/anchsemen/gan-hw">**Homework_2 Имплементация GAN**</a>
+#  <a href="https://colab.research.google.com/drive/10ywRs3HOr07kWP12HbBM373ZxlMKgGG9?usp=sharing">**Homework_2 Имплементация GAN**</a>
 
 
 ### **Используемый датасет:** 
